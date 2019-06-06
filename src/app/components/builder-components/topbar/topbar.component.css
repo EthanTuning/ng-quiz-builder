@@ -1,0 +1,18 @@
+.navbar {
+    background: #426080;
+}
+
+.navbar-start {
+    width: 60% !important;
+    margin: 0 auto;
+}
+
+i {
+    color: #D1E7FF;
+    font-size: 60px;
+    padding: 1rem;
+}
+
+#close-icon {
+    margin-left: 60%;
+}

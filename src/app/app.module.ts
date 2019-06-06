@@ -11,10 +11,10 @@ import { TableComponent } from './components/quiz-components/table/table.compone
 import { DelimeterComponent } from './components/quiz-components/delimeter/delimeter.component';
 import { ChecklistComponent } from './components/quiz-components/checklist/checklist.component';
 import { ListComponent } from './components/quiz-components/list/list.component';
-import { QuizComponent } from './components/builder-components/quiz/quiz.component';
 import { TopbarComponent } from './components/builder-components/topbar/topbar.component';
 import { BuilderComponent } from './components/builder-components/builder/builder.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
+import { QuizEditorComponent } from './components/builder-components/quiz-editor/quiz-editor.component';
 
 @NgModule({
   declarations: [
@@ -27,10 +27,10 @@ import { HomePageComponent } from './components/home-page/home-page.component';
     DelimeterComponent,
     ChecklistComponent,
     ListComponent,
-    QuizComponent,
     TopbarComponent,
     BuilderComponent,
-    HomePageComponent
+    HomePageComponent,
+    QuizEditorComponent
   ],
   imports: [
     BrowserModule,
