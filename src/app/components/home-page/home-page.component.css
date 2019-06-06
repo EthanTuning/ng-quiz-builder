@@ -1,0 +1,81 @@
+.columns {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.column {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+    padding-right: 3.5rem !important;
+    padding-left: 3.5rem !important;
+    margin: 0 !important;
+}
+
+#info-column h1 {
+    color: #426080;
+    font-size: 7rem;
+    font-weight: bold;
+    padding-bottom: 5rem;
+}
+
+#info-blurb {
+    color: #426080;
+    font-size: 3.25rem;
+    font-weight: 400;
+    padding-bottom: 5rem;
+}
+
+#info-column h2 {
+    color: #426080;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+#info-column ul {
+    list-style: none;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+}
+
+#info-column li {
+    color: #426080;
+    font-size: 2.25rem;
+    font-weight: 300;
+}
+
+#info-column li::before {
+    content: "\2022";
+    color: #6A99CC;
+    font-weight: bold;
+    padding-right: .5rem;
+}
+
+#foot-note {
+    color: #6A99CC;
+    font-size: 1.5rem;
+}
+
+#foot-note strong {
+    color: #426080;
+    padding-right: 2rem;
+}
+
+#action-column {
+    background: #D1E7FF;
+    padding: 3.5rem !important;
+}
+
+#action-column .container {
+    padding-top: 35%;
+}
+
+#instructions-blurb {
+    font-size: 3.25rem;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+
+#action-column .buttons {
+    padding-top: 4rem;
+}
