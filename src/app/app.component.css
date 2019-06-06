@@ -1,7 +1,6 @@
 .columns {
     padding: 0 !important;
     margin: 0 !important;
-    height: 100vh !important;
 }
 
 .column {
@@ -10,38 +9,38 @@
 }
 
 #info-column {
-    padding: 5vw !important;
+    padding: 2.5rem !important;
 }
 
 #info-column h1 {
     color: #426080 !important;
-    font-size: 6vw !important;
+    font-size: 7rem !important;
     font-weight: bold !important;
-    padding-bottom: 8vh !important;
+    padding-bottom: 5rem !important;
 }
 
 #info-column #info-blurb {
     color: #426080;
-    font-size: 3.75vw;
+    font-size: 5rem;
     font-weight: 300;
-    padding-bottom: 8vh;
+    padding-bottom: 5rem;
 }
 
 #info-column h2 {
     color: #426080 !important;
-    font-size: 2.5vw !important;
+    font-size: 2.25rem !important;
     font-weight: 600 !important;
 }
 
 #info-column ul {
     list-style: none !important;
-    padding-left: 5vw !important;
-    padding-bottom: 9vh !important;
+    padding-left: 5rem !important;
+    padding-bottom: 5rem !important;
 }
 
 #info-column li {
     color: #426080 !important;
-    font-size: 2.25vw !important;
+    font-size: 2.25rem !important;
     font-weight: 300 !important;
 }
 
@@ -49,9 +48,13 @@
     content: "\2022";
     color: #6A99CC !important;
     font-weight: bold !important;
-    padding-right: .5em !important;
+    padding-right: .5rem !important;
 }
 
 #action-column {
     background: #D1E7FF;
+}
+
+#foot-note {
+    position: relative;
 }
