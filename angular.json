@@ -24,7 +24,8 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/bulma.min.css"
+              "src/assets/bulma.min.css",
+              "src/assets/bulma-extensions/bulma-tooltip.min.css"
             ],
             "scripts": [],
             "es5BrowserSupport": true
