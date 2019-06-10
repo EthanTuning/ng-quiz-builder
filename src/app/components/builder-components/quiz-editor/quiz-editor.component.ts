@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import EditorJS from '@editorjs/editorjs';
+
 import Header from '@editorjs/header';
 import Paragraph from '@editorjs/paragraph';
 import Simple from '@editorjs/simple-image';
@@ -9,6 +9,7 @@ import Table from '@editorjs/table';
 import Delimiter from '@editorjs/delimiter';
 import CheckList from '@editorjs/checklist';
 import List from '@editorjs/list';
+import EditorJS from '@editorjs/editorjs';
 
 @Component({
   selector: 'app-quiz-editor',
@@ -18,9 +19,7 @@ import List from '@editorjs/list';
 
 export class QuizEditorComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit() {
+  constructor() {
 
     const editor = new EditorJS({
       holderId: 'quiz-editor-container',
@@ -77,7 +76,9 @@ export class QuizEditorComponent implements OnInit {
         ]
       }
     });
+ }
 
+  ngOnInit() {
   }
 
 }

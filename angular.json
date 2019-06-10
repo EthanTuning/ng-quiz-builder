@@ -24,8 +24,7 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/bulma.min.css",
-              "src/reset.css"
+              "src/bulma.min.css"
             ],
             "scripts": [],
             "es5BrowserSupport": true

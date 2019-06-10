@@ -2,3 +2,9 @@
     background: #ffffff;
     min-height: 100vh;
 }
+
+/* Bulma Overrides For Editor */
+
+:host ::ng-deep .cdx-list--ordered {
+    list-style: decimal !important;
+}
